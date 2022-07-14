@@ -5,14 +5,14 @@ public class ReverseString {
 	public static void main(String[] args)
 	{
 		String name="Kunal";
-		String rev="";
+		String reverse="";
 		
 		for(int i=name.length()-1;i>=0;i--)
 		{
-			rev=rev+name.charAt(i);
+			reverse=reverse+name.charAt(i);
 		}
-		System.out.println(rev);
+		System.out.println(reverse);
 
 	}
-
+// "change string veriable name"
 }
